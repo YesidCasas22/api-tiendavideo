@@ -1,5 +1,4 @@
-package org.yesidcasas.springboot.apitiendavideo.entities;
-
+package org.yesidcasas.springboot.apitiendavideo.entidades;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -32,7 +31,5 @@ public class Inventario {
     @ManyToOne
     @JoinColumn(name = "idtecnologia", referencedColumnName = "id")
     private Tecnologia tecnologia;
-
-
 
 }

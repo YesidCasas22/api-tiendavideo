@@ -1,4 +1,4 @@
-package org.yesidcasas.springboot.apitiendavideo.entities;
+package org.yesidcasas.springboot.apitiendavideo.entidades;
 
 import jakarta.persistence.*;
 import lombok.Data;
