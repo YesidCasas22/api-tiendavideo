@@ -11,7 +11,7 @@ public class Tercero {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Long id;
+    private long id;
 
     @Column(name = "direccion", nullable = true, length = 100)
     private String direccion;

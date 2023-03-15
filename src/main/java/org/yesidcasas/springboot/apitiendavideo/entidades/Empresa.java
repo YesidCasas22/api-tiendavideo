@@ -18,7 +18,6 @@ public class Empresa {
     @Column(name = "nombre", length = 100, unique = true)
     private String nombre;
 
-
     @ManyToOne
     @JoinColumn(name = "idpais", referencedColumnName = "id")
     private Pais pais;
